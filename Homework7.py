@@ -85,3 +85,19 @@ def piskvorky1d():
 
 # Spuštění hry
 piskvorky1d()
+
+# úkol 2
+# přikládám upravenou def pro tah počítače
+def tah_pocitace(pole, symbol):
+    protivnik_symbol = 'x' 
+    
+    for i in range(len(pole) - 1):
+        if pole[i:i + 2] == f"{protivnik_symbol}-":
+            return tah(pole, i + 1, symbol)
+        elif pole[i:i + 2] == f"-{protivnik_symbol}":
+            return tah(pole, i, symbol)
+    
+    while True:
+        cislo_policka = random.randint(0, 19)
+        if pole[cislo_policka] == '-':
+            return tah(pole, cislo_policka, symbol)
