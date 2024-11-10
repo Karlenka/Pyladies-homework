@@ -101,3 +101,19 @@ def tah_pocitace(pole, symbol):
         cislo_policka = random.randint(0, 19)
         if pole[cislo_policka] == '-':
             return tah(pole, cislo_policka, symbol)
+        
+#dú3
+# Napiš program, který se zeptá na 3 čísla a zjistí, jestli je jejich součet větší než 10. Dokážeš jej vymyslet tak, aby funkce input byla v kódu zapsaná jen jednou? ;)
+
+cisla = input("Vlož tři celá čísla oddělená čárkami: ").split(",")
+
+cislo_a = int(cisla[0])
+cislo_b = int(cisla[1])
+cislo_c = int(cisla[2])
+
+soucet = cislo_a + cislo_b + cislo_c
+
+if soucet > 10:
+    print(f"Soucet je {soucet}. Součet tedy JE větší než 10.")
+else:
+    print(f"Soucet je {soucet}. Součet tedy NENÍ větší než 10.")
