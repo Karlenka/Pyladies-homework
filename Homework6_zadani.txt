@@ -1,0 +1,49 @@
+Domácí projekty
+Napiš nám prosím zpětnou vazbu na poslední hodinu.
+
+0.
+Vytvoř funkci, která dostane jako argument příjmení a zkusí podle něj uhodnout pohlaví. Funkce bude vracet řetězec "žena" nebo "muž". Funkce bude součástí programu, který se na příjmení zeptá a následně vypíše odhad pohlaví uživatele.
+
+1.
+Napiš funkci, která dostane jako argument identifikační číslo (např. rodné číslo, číslo platební karty, číslo OP) a která vrátí řetězec, kde jsou všechna čísla mimo posledních čtyř nahrazena symbolem X.
+
+např. pro 1234567 funkce vrátí XXX4567
+
+2.
+Najdi na internetu text své oblíbené písně, zkopíruj si ho do řetězce a zjisti, kolikrát je v něm použito písmeno K (započítej malá i velká písmena).
+
+
+3.
+Změň funkci ano_nebo_ne z materiálů k lekci Vlastní funkce (sekce Vracení) tak, aby se místo ano se dalo použít i a, místo ne i n a aby se nebral ohled na velikost písmen a mezery před/za odpovědí.
+
+Textům jako možná nebo no tak určitě by počítač dál neměl rozumět.
+
+4.
+Napiš funkci, která dostane jako parametr číslo a zjistí, jestli je sudé. Funkce by měla vracet True nebo False.
+
+5.
+Napiš funkci, která dostane jako parametry tři čísla a zjistí, jestli je jejich součet větší než 10. Funkce by měla vracet vracet True nebo False.
+
+6.
+Napiš funkci, která vypíše čísla od jedné do 100, ale:
+
+Pokud je číslo dělitelné třemi, napíše místo něj "bum".
+Pokud je číslo dělitelné pěti, napíše místo něj "bác".
+Pokud je číslo dělitelné pěti i třemi zároveň, napíše místo toho "bum-bác".
+7.
+Napiš funkci vyhodnot, která dostane řetězec s herním polem 1-D piškvorek a vrátí jednoznakový řetězec podle stavu hry:
+
+"x" – Vyhrál hráč s křížky (pole obsahuje "xxx")
+"o" – Vyhrál hráč s kolečky (pole obsahuje "ooo")
+"!" – Remíza (pole neobsahuje "-", a nikdo nevyhrál)
+"-" – Ani jedna ze situací výše (t.j. hra ještě neskončila)
+8.
+Napiš funkci tah, která dostane řetězec s herním polem, číslo políčka (0-19), a symbol (x nebo o) a vrátí herní pole (t.j. řetězec) s daným symbolem umístěným na danou pozici.
+
+Hlavička funkce by tedy měla vypadat nějak takhle:
+
+def tah(pole, cislo_policka, symbol):
+    "Vrátí herní pole s daným symbolem umístěným na danou pozici"
+    ...
+Můžeš využít nějakou funkci, kterou jsme napsaly už na sraze?
+

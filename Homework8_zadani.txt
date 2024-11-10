@@ -1,0 +1,68 @@
+Domácí projekty
+Napiš nám prosím zpětnou vazbu na poslední hodinu.
+
+0.
+Napiš funkci, která pro argumentem zadané číslo n vytvoří a vrátí slovník, kde jako klíče budou čísla od jedné do n a jako hodnoty k nim jejich druhé mocniny. Například:
+
+>>> mocniny(4)
+{1: 1, 2: 4, 3: 9, 4: 16}
+>>> mocniny(2)
+{1: 1, 2: 4}
+1.
+Napiš funkci, která sečte a vrátí sumu všech klíčů a sumu všech hodnot ve slovníku, který dostane jako argument. K vyzkoušení můžeš použít slovník z minulé úlohy. Například:
+
+>>> soucet_klicu_a_hodnot(mocniny(4))
+(10, 30)
+>>> muj_slovnik = {0: 0, 1: 5, 2: 10}
+>>> soucet_klicu_a_hodnot(muj_slovnik)
+(3, 15)
+2.
+Napiš funkci, která jako argument dostane řetězec a vrátí slovník, ve kterém budou jako klíče jednotlivé znaky ze zadaného řetězce a jako hodnoty počty výskytů těchto znaků v řetězci. Například:
+
+>>> pocet_znaku("hello world")
+{'h': 1, 'e': 1, 'l': 3, 'o': 2, ' ': 1, 'w': 1, 'r': 1, 'd': 1}
+Co vrátí funkce, když jejím argmentem bude "Máme rádi PyLadies!"?
+
+Zkus se obejít bez použítí metody count.
+
+Následující projekty závisí jeden na druhém, řeš je postupně. Až to uděláš, můžeš si zahrát hru! Tahle sekce není jednoduchá. Můžeš zkusit spojit síly s ostatními účastnicemi kurzu!
+
+3.
+Napiš funkci, která dostane seznam souřadnic (párů čísel menších než 10, která určují sloupec a řádek) a vypíše je jako mapu: mřížku 10×10, kde na políčka, která jsou v seznamu, napíše X, jinde tečku. Například:
+
+nakresli_mapu([(0, 0), (1, 0), (2, 2), (4, 3), (8, 9), (8, 9)])
+X X . . . . . . . .
+. . . . . . . . . .
+. . X . . . . . . .
+. . . . X . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . X .
+Jak na to?
+
+Udělej tabulku (seznam seznamů) se samými tečkami, něco jako:
+[['.', '.', '.'], ['.', '.', '.'], ['.', '.', '.']].
+Na příslušných místech nahraď tečky X-ky.
+Tabulku vypiš pomocí dvou cyklů for zanořených do sebe.
+4.
+Napiš funkci pohyb, která dostane seznam souřadnic a světovou stranu ("s", "j", "v" nebo "z") a přidá k seznamu poslední bod „posunutý“ v daném směru. Např.:
+
+souradnice = [(0, 0)]
+pohyb(souradnice, 'v')
+print(souradnice)         # → [(0, 0), (1, 0)]
+pohyb(souradnice, 'v')
+print(souradnice)         # → [(0, 0), (1, 0), (2, 0)]
+pohyb(souradnice, 'j')
+print(souradnice)         # → [(0, 0), (1, 0), (2, 0), (2, 1)]
+pohyb(souradnice, 's')
+print(souradnice)         # → [(0, 0), (1, 0), (2, 0), (2, 1), (2, 0)]
+Funkce by neměla nic vracet. Jen mění už existující seznam.
+
+5.
+Napiš cyklus, který se bude ptát uživatele na světovou stranu, podle ní zavolá pohyb, a následně vykreslí seznam jako mapu. Pak se opět se zeptá na stranu atd.
+
+Začínej se seznamem [(0, 0), (1, 0), (2, 0)].
+

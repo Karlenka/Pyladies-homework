@@ -1,0 +1,116 @@
+
+0.
+Jak se jmenuje druh chyby, která nastane, když…
+
+
+1.  Dáš uvozovky jen na jednu stranu řetězce? 
+2
+SyntaxError - unterminated string literal – neukončený řetězec
+3
+2.  Zkusíš odečíst číslo od řetězce? 
+4
+TypeError: unsupported operand type(s) – nepodporovaný operátor
+5
+3.  Dělíš nulou? 
+6
+ZeroDivisionError – chyba dělení nulou
+7
+4.  Použiješ proměnnou, která neexistuje? 
+8
+NameError - name is not defined – Chyba jména – jméno není definováno
+9
+5.  Stiskneš Ctrl+C, když se program ptá na vstup (pomocí input)? 
+10
+KeyboardInterrupt ^C – přerušení z klávesnice
+11
+6.  Odsadíš příkaz bez předchozího if:? 
+12
+IndentationError: unexpected indent –Chyba odsazení: neočekávané odsazení
+13
+7.  Po if: odsadíš jeden příkaz o čtyři mezery a druhý jen o dvě? 
+14
+IndentationError: unindent does not match any outer indentation level (Chyba odsazení: zrušení odsazení neodpovídá žádné vnější úrovni odsazení)
+15
+8.  Neuzavřeš závorku?
+16
+SyntaxError: '(' was never closed – Chyba syntaxu – závorka nebyla uzavřena
+17
+9.  Zkusíš použít vykřičník (!) jako operátor?
+18
+SyntaxError: invalid syntax – neplaná syntaxe
+19
+10. Napíšeš v příkazu print(1, 2, 3) čárku navíc? Např. print(1,2,,3)?
+20
+SyntaxError: invalid syntax – neplaná syntaxe
+21
+11. Zkusíš porovnat řetězec a číslo, např. 2 >"3"?
+22
+TypeError: '>' not supported between instances of 'int' and 'str – operátor není podporovaný pro číslo a text
+23
+​
+Vyřešené
+1.
+Zkus se nedívat na programy ze srazu.
+
+Napiš program, který spočítá povrch a objem krychle o straně 2852 cm.
+
+Abys nemusela tolik hledat v učebnici (vlastně Wikipedii): povrch S = 6a², objem V = a³
+
+Řešení, pro kontrolu: S = 48803424 cm², V = 23197894208 cm³
+
+2.
+Změň program tak, aby délku strany mohl zadat uživatel.
+
+Tady už se na materiály ze srazu klidně podívej.
+
+3.
+Představ si, že napíšeš následující kód do interaktivního Pythonu:
+
+>>> pocet_jablek = 10
+>>> pocet_hrusek = 20
+>>> vice_jablek = pocet_jablek > pocet_hrusek
+
+>>> barva_jablek = "cervena"
+>>> jablka_cervena = barva_jablek == "cervena"
+
+>>> jablka_v_lednici = True
+>>> hrusky_v_lednici = False
+
+>>> ovoce_v_lednici = jablka_v_lednici or hrusky_v_lednici
+Jakou hodnotu budou mít proměnné vice_jablek, jablka_cervena a ovoce_v_lednici po spustění kódu výše?
+
+Odevzdané řešení (stav: ✓ - vyřešené)
+2024-09-27T20:00:01ZKopírovat
+1
+vice_jablek ....false
+2
+jablka_cervena ....true
+3
+ovoce_v_lednici...true
+Vyřešené
+4.
+A teď trochu kreativity. Napiš program, který po zadání správného hesla vypíše nějakou tajnou informaci.
+
+Vhodné tajemství je třeba: V pátek jsem viděla černého havrana.
+
+5.
+Na srazu jsme měli program, který píše různé nesmysly podle uživatelem zadaného věku.
+
+Zkus napsat program, který píše hlášky podle zadané rychlosti chůze, váhy ulovené ryby, počtu tykadel, teploty vody nebo třeba vzdálenosti od rovníku.
+
+6.
+Zkus napsat hru Kámen, nůžky, papír. Jak na to:
+
+Vytvoř si dvě proměnné, tah_cloveka a tah_pocitace
+Nastav tah_pocitace na "kámen", na tah_cloveka se uživatele zeptej
+Vypiš výsledky hry dle tahu člověka - buď 'Plichta.', 'Počítač vyhrál.' nebo 'Vyhrála jsi!'. Vyhodnocení výsledku hry naprogramuj tak, jako by počítač mohl náhodně losovat ze všech tří variant - naučíš ho to v příští lekci.
+Pokud nevíš, odevzdej i nekompletní řešení, koučové tě navedou!
+
+7.
+Zkus přepsat hru Kámen, nůžky, papír z předchozího úkolu pomocí and a or.
+
+Dokážeš docílit toho, aby se každý z řetězců 'Plichta.', 'Počítač vyhrál.' a 'Vyhrála jsi!' objevil v programu jen jednou, aniž bys tyhle řetězce musela přiřazovat do proměnných?
+
+Pokud ano, gratuluji!
+
+​

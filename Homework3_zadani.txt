@@ -1,0 +1,81 @@
+Domácí projekty
+Napiš nám prosím zpětnou vazbu na poslední hodinu.
+
+V těchto projektech je něco nového. Nezadávají postup, jak na odpověď přijít, ale to určitě zvládneš!
+
+0.
+Pomocí cyklu for napiš program, který vypíše:
+
+Řádek 0
+Řádek 1
+Řádek 2
+Řádek 3
+Řádek 4
+
+1.
+Vypiš lichá čísla od jedné do jedenácti pomocí příkazu for a funkce range.
+
+2.
+Pomocí cyklu for napiš program, který vypíše:
+
+1 na druhou je 1
+2 na druhou je 4
+3 na druhou je 9
+4 na druhou je 16
+Jak pojmenuješ proměnnou cyklu? Slovně zdůvodni.
+
+3.
+Pomocí cyklů for a parametru end pro print napiš program, který postupně z jednotlivých 'X' vypíše:
+
+X X X X X
+X X X X X
+X X X X X
+X X X X X
+X X X X X
+„Z jednotlivých 'X'“ znamená, že nepoužiješ např. print('X X X X X'), ani násobení řetězců, t. j. např. 5 * "X".
+
+Jak pojmenuješ proměnnou cyklu? A tu druhou? Slovně zdůvodni.
+
+4.
+Napiš program, který vypíše „tabulku“ s násobilkou.
+
+1 2 3 4
+2 4 6 8
+3 6 9 12
+4 8 12 16
+
+5.
+Napiš program, který postupně z jednotlivých 'X' vypíše:
+
+X
+X X
+X X X
+X X X X
+
+6.
+Nakresli trojúhelník.
+
+trojúhelník
+
+Poznámka: Rovnostranný trojúhelník má vnitřní úhly 60°. Želva se ale otáčí o vedlejší úhel 180 - 60 = 120°.
+
+diagram
+
+
+7.
+Nakresli domeček!
+
+domeček
+
+Jak pravil Pythagoras, délka šikmé čáry v domečku je √2-krát délka stěny. O funkci na odmocninu jsme mluvili na srazu.
+
+
+8.
+Nakresli n-úhelník (např. čtyřúhelník, pětiúhelník), kde n zadá uživatel.
+
+mnohoúhelníky
+
+Vnitřní úhel pravidelného n-úhelníka má 180 × (1-2/n) stupňů.
+
+Aby byly tvary zhruba stejně veliké, použij pro n-úhelník délku strany např. 200/n
+

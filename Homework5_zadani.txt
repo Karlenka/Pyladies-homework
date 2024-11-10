@@ -1,0 +1,40 @@
+Domácí projekty
+Napiš nám prosím zpětnou vazbu na poslední hodinu.
+
+0.
+Vytvoř funkci pocet_vterin, která bude mít dva argumenty: čas v minutách a čas ve vteřinách. A bude vracet celkový počet vteřin.
+
+1.
+Napiš funkci, která vrátí maximální hodnotu ze tří zadaných čísel. Zjištění maxima naprogramuj sama, pomocí příkazů if.
+
+2.
+Vytvoř funkci, která spočítá Body Mass Index pro kočky. Vstupem (parametry) funkce bude obvod hrudníku (cm) a délka zadní nohy od kolena ke kotníku (cm). Funkce vrátí číslo feline body mass index (fBMI).
+
+Postup výpočtu fBMI: 1. Vydělit obvod hrudníku 0.7062 a odečíst délku nohy. 2. Vydělit výsledek 0.9156. 3. Od výsledku bodu 2 odečíst délku nohy.
+
+4.
+Napiš funkci, která s pomocí cyklu for a příkazu if vypíše z jednotlivých 'X' a mezer následující obrazec:
+
+X X X X X X
+X         X
+X         X
+X         X
+X         X
+X X X X X X
+5.
+Vrať se k úkolu č. 4 z minulé lekce a zkus zpřehlednit kód použitím funkce. Funkce hazej_kostkou bude vracet počet pokusů než hráči padla šestka.
+
+6.
+Napiš funkci, která bude mít jako parametr jedno číslo a vrátí "Bum", je-li toto číslo liché, a "Bác", je-li toto číslo sudé.
+
+7.
+Napiš funkci, která bude mít jako parametr jedno číslo (n) a vypíše n řádek. Na prvním řádku bude "Bum", na druhém "Bác", na třetím "Bum", atd. Využij funkci z předchozího úkolu.
+
+Např.
+
+>>> vypis_bum_bac(5)
+Bum
+Bác
+Bum
+Bác
+Bum

@@ -1,0 +1,44 @@
+Domácí projekty
+Napiš nám prosím zpětnou vazbu na poslední hodinu.
+
+Pokračujeme s piškvorkami, které jsme začaly programovat v domácích projektech k minulé lekci.
+
+0.
+Napiš funkci tah_pocitace, která dostane řetězec s herním polem, vybere pozici, na kterou hrát, a vrátí herní pole se zaznamenaným tahem počítače.
+
+Použij jednoduchou náhodnou „strategii”:
+
+Vyber číslo od 0 do 19.
+Pokud je dané políčko volné, hrej na něj.
+Pokud ne, opakuj od bodu 1.
+Můžeš předpokládat, že řetězec s herním polem vždy obsahuje alespoň jednu volnou pozici.
+
+Hlavička funkce by tedy měla vypadat nějak takhle:
+
+def tah_pocitace(pole):
+    "Vrátí herní pole se zaznamenaným tahem počítače"
+    ...
+1.
+Napiš funkci piskvorky1d, která vytvoří řetězec s herním polem a střídavě volá funkce tah_hrace a tah_pocitace, dokud někdo nevyhraje nebo nedojde k remíze.
+
+Nezapomeň kontrolovat stav hry po každém tahu.
+
+Poslední projekt je nepovinný, ale, jak to u podobných projektů bývá, můžeš na něj dostat zpětnou vazbu. Doporučuju toho využít!
+
+2.
+Zvládneš pro počítač naprogramovat lepší strategii? Třeba aby se snažil hrát vedle svých existujících symbolů nebo aby bránil protihráčovi?
+
+Stačí jen docela malé vylepšení!
+
+Teď několik programovacích oříšků pro dlouhé chvíle. Máš-li hotové piškvorky (tj. máš v nich funkci piskvorky1d) a k tomu trochu volného času, tak se do nich směle pusť!
+
+3.
+Napiš program, který se zeptá na 3 čísla a zjistí, jestli je jejich součet větší než 10. Dokážeš jej vymyslet tak, aby funkce input byla v kódu zapsaná jen jednou? ;)
+
+4.
+Pokud máš ráda matematiku* a nebojíš se výzvy, načti od uživatele číslo n a:
+
+Vypočti faktoriál n! (součin všech celých čísel od 1 do n).
+Zjisti, jestli je n prvočíslo.
+Vypiš prvních n členů Fibonacciho posloupnosti (1, 1, 2, 3, 5, 8, 13, 21, …).
+* t.j. nemáš-li ráda matematiku, nedělej tenhle projekt :)
